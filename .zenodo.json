@@ -5,7 +5,8 @@
   "description": "<p>A proof of Conjecture 5.1 of R. M. Corless (Maple Transactions 1(2), 2021): the recursively constructed vectors give all nilpotent skew-symmetric tridiagonal matrices with superdiagonal entries in {1, i}, and there are exactly 2^(K-1) of them in dimension 2^K - 1. The proof reduces nilpotency modulo 4 to a linear system over F_2.</p><p>The record contains the informal proof, a formalisation in Lean 4 with Mathlib in which the main theorems depend only on Lean's standard axioms, and Python and C scripts that check every step numerically and extend the exhaustive verification from m = 31 to m = 63.</p><p>License: the code (lean/, computations/ scripts) is under the Apache License 2.0; the text of proof.md, the data files and the figure are under CC BY 4.0.</p>",
   "creators": [
     {
-      "name": "Blattner, Marcel"
+      "name": "Blattner, Marcel",
+      "orcid": "0009-0001-7188-673X"
     }
   ],
   "license": "Apache-2.0",

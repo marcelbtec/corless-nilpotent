@@ -4,6 +4,7 @@ title: "Corless's nilpotent conjecture: proof, Lean formalisation and computatio
 authors:
   - family-names: Blattner
     given-names: Marcel
+    orcid: "https://orcid.org/0009-0001-7188-673X"
 version: 1.0.0
 license:
   - Apache-2.0
