@@ -1,0 +1,14 @@
+slice 0: candidates 153391690, passed filter 0, nilpotent 0
+slice 1: candidates 153391690, passed filter 0, nilpotent 0
+slice 2: candidates 153391690, passed filter 6, nilpotent 6
+slice 3: candidates 153391690, passed filter 2, nilpotent 2
+slice 4: candidates 153391690, passed filter 0, nilpotent 0
+slice 5: candidates 153391690, passed filter 4, nilpotent 4
+slice 6: candidates 153391690, passed filter 4, nilpotent 4
+slice 7: candidates 153391690, passed filter 4, nilpotent 4
+slice 8: candidates 153391690, passed filter 4, nilpotent 4
+slice 9: candidates 153391690, passed filter 0, nilpotent 0
+slice 10: candidates 153391690, passed filter 2, nilpotent 2
+slice 11: candidates 153391690, passed filter 6, nilpotent 6
+slice 12: candidates 153391690, passed filter 0, nilpotent 0
+slice 13: candidates 153391678, passed filter 0, nilpotent 0

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Corless's nilpotent conjecture: proof, Lean formalisation and computations"
+authors:
+  - family-names: Blattner
+    given-names: Marcel
+version: 1.0.0
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+abstract: >-
+  A proof of Conjecture 5.1 of R. M. Corless (Maple Transactions, 2021): the
+  recursively constructed vectors give all nilpotent skew-symmetric tridiagonal
+  matrices with superdiagonal entries in {1, i}, and there are exactly 2^(K-1)
+  of them in dimension 2^K - 1. The proof reduces nilpotency modulo 4 to a
+  linear system over F_2. It is formalised in Lean 4 with Mathlib. Python and
+  C scripts check every step numerically and extend the exhaustive
+  verification from m = 31 to m = 63.
+keywords:
+  - Bohemian matrices
+  - nilpotent matrices
+  - skew-symmetric tridiagonal matrices
+  - matching polynomial
+  - Lean 4
+  - formal verification
+references:
+  - type: article
+    authors:
+      - family-names: Corless
+        given-names: Robert M.
+    title: "Skew-symmetric tridiagonal Bohemian matrices"
+    journal: Maple Transactions
+    volume: 1
+    issue: 2
+    year: 2021
+    doi: 10.5206/mt.v1i2.14360

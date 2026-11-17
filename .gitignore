@@ -1,0 +1,4 @@
+computations/enum
+__pycache__/
+.DS_Store
+*.swp
