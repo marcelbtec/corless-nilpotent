@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24317787.svg)](https://doi.org/10.5281/zenodo.24317787) [![check](https://github.com/marcelbtec/corless-nilpotent/actions/workflows/check.yml/badge.svg)](https://github.com/marcelbtec/corless-nilpotent/actions/workflows/check.yml)
 
-This repository proves Conjecture 5.1 of R. M. Corless, *Skew-symmetric tridiagonal Bohemian matrices*, Maple Transactions 1(2) (2021), Article 14360, [doi:10.5206/mt.v1i2.14360](https://doi.org/10.5206/mt.v1i2.14360). The proof is machine-checked in Lean 4 with Mathlib.
+This repository proves Conjecture 5.1 of R. M. Corless, *Skew-symmetric tridiagonal Bohemian matrices*, Maple Transactions 1(2) (2021), Article 14360, [doi:10.5206/mt.v1i2.14360](https://doi.org/10.5206/mt.v1i2.14360). The proof is machine-checked in Lean 4 with Mathlib. The repository accompanies the paper *Nilpotent skew-symmetric tridiagonal Bohemian matrices: a proof of Corless's conjecture* by M. Blattner (arXiv preprint, 2026).
 
 **Theorem.** Let T_m(u) be the m × m skew-symmetric tridiagonal matrix with zero diagonal, superdiagonal u = (u₁, …, u_{m−1}) and subdiagonal −u, where every u_k is 1 or i. Then T_m(u) is nilpotent if and only if two conditions hold:
 
@@ -11,7 +11,9 @@ This repository proves Conjecture 5.1 of R. M. Corless, *Skew-symmetric tridiago
 
 There are exactly 2^(K−1) such matrices in dimension 2^K − 1, and none in other dimensions.
 
-The key step reduces the problem modulo 4. There, nilpotency becomes a linear system over 𝔽₂, and that system already forces the recursive shape. `proof.md` has the full argument.
+The key step reduces the problem modulo 4. There, a necessary condition for nilpotency is a linear system over 𝔽₂, and that system already forces the outermost step of the recursion. An exact identity, implicit in Corless's paper, then reduces the problem to half the dimension. `proof.md` has the full argument.
+
+The paper contains further results: the classification of the nilpotent tridiagonal sign matrices (finite sections of the Feinberg–Zee hopping matrix), the (1,1) entry of the resolvent of a nilpotent T_m(u), and a second description of the nilpotent vectors by a doubling rule. These are not formalised. `computations/check_extras.py` checks them by exact computation in small cases.
 
 ## Contents
 
@@ -19,7 +21,7 @@ The key step reduces the problem modulo 4. There, nilpotency becomes a linear sy
 |---|---|
 | `proof.md` | the informal proof (four lemmas and the theorem), the record of the openness check, and a table of numerical checks |
 | `lean/` | the Lean 4 formalisation; `lean/README.md` lists the statements and files |
-| `computations/` | Python and C scripts that check each lemma, the classification by brute force and by exhaustive search up to m = 63, and the matrices themselves; `computations/README.md` describes each script |
+| `computations/` | Python and C scripts that check each lemma, the classification by brute force and by exhaustive search up to m = 63, the matrices themselves, and the further results of the paper in small cases; `computations/README.md` describes each script |
 | `.github/workflows/check.yml` | continuous integration: builds the Lean proof, checks its axioms, and reruns the computations |
 
 ## Main formal statements
@@ -63,4 +65,4 @@ See `CITATION.cff`. Each release is archived on Zenodo.
 - All versions: [doi:10.5281/zenodo.24317787](https://doi.org/10.5281/zenodo.24317787)
 - Version 1.0.0: [doi:10.5281/zenodo.24317788](https://doi.org/10.5281/zenodo.24317788)
 
-> Blattner, M. (2026). *Corless's nilpotent conjecture: proof, Lean formalisation and computations* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24317787
+> Blattner, M. (2026). *Corless's nilpotent conjecture: proof, Lean formalisation and computations* (Version 1.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24317787
