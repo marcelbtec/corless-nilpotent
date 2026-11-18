@@ -13,6 +13,7 @@ run python3 check_matrices.py
 run python3 mod4.py
 run python3 halves.py
 run python3 sfraction.py
+run python3 check_extras.py
 cc -O3 -o enum enum.c
 for K in 3 4 5 6; do
   python3 gen_params.py $K > params_$K.txt

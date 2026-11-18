@@ -17,6 +17,7 @@ All scripts work with signs s_k = u_k², where s_k = +1 for u_k = 1 and s_k = �
 | `check_enum.py` | compares `sol_K.txt` with Corless's family | equal for m = 7, 15, 31, 63 (4, 8, 16, 32 solutions) |
 | `halves.py`, `levels.py` | exploratory: how far D_s = 1 holds modulo higher powers of 2, and how the two halves behave | tables |
 | `sfraction.py` | the continued-fraction observation: for every family member, D_{s₂…} has the form 1 ± x ± x³ ± ⋯ | printed polynomials |
+| `check_extras.py` | the statements of the paper that are not formalised in Lean: tridiagonal sign matrices J_m(a, c) and the diagonal similarity, the 2^N solutions modulo 4, the single Jordan block, the continued fraction and the resolvent, the doubling identity and the sequence c̃; characteristic polynomials by exact elimination over the Gaussian rationals | all hold (K ≤ 8 where the statement is about F_K) |
 | `make_figure.py` | draws `figures/family_31.png`, the 16 nilpotent vectors at m = 31 | PNG; needs matplotlib |
 
 ## Data
