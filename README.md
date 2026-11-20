@@ -66,7 +66,7 @@ See `CITATION.cff`. Each release is archived on Zenodo.
 - Version 1.0.0: [doi:10.5281/zenodo.24317788](https://doi.org/10.5281/zenodo.24317788)
 - Version 1.1.0: [doi:10.5281/zenodo.24355204](https://doi.org/10.5281/zenodo.24355204)
 
-> Blattner, M. (2026). *Corless's nilpotent conjecture: proof, Lean formalisation and computations* (Version 1.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24317787
+> Blattner, M. (2026). *Corless's nilpotent conjecture: proof, Lean formalisation and computations* (Version 1.1.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24317787
 
 The paper:
 
