@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24317787.svg)](https://doi.org/10.5281/zenodo.24317787) [![check](https://github.com/marcelbtec/corless-nilpotent/actions/workflows/check.yml/badge.svg)](https://github.com/marcelbtec/corless-nilpotent/actions/workflows/check.yml)
 
-This repository proves Conjecture 5.1 of R. M. Corless, *Skew-symmetric tridiagonal Bohemian matrices*, Maple Transactions 1(2) (2021), Article 14360, [doi:10.5206/mt.v1i2.14360](https://doi.org/10.5206/mt.v1i2.14360). The proof is machine-checked in Lean 4 with Mathlib. The repository accompanies the paper *Nilpotent skew-symmetric tridiagonal Bohemian matrices: a proof of Corless's conjecture* by M. Blattner (arXiv preprint, 2026).
+This repository proves Conjecture 5.1 of R. M. Corless, *Skew-symmetric tridiagonal Bohemian matrices*, Maple Transactions 1(2) (2021), Article 14360, [doi:10.5206/mt.v1i2.14360](https://doi.org/10.5206/mt.v1i2.14360). The proof is machine-checked in Lean 4 with Mathlib. The repository accompanies the paper *Nilpotent skew-symmetric tridiagonal Bohemian matrices: a proof of Corless's conjecture* by M. Blattner, [arXiv:2611.25266](https://arxiv.org/abs/2611.25266) (2026).
 
 **Theorem.** Let T_m(u) be the m × m skew-symmetric tridiagonal matrix with zero diagonal, superdiagonal u = (u₁, …, u_{m−1}) and subdiagonal −u, where every u_k is 1 or i. Then T_m(u) is nilpotent if and only if two conditions hold:
 
@@ -64,5 +64,10 @@ See `CITATION.cff`. Each release is archived on Zenodo.
 
 - All versions: [doi:10.5281/zenodo.24317787](https://doi.org/10.5281/zenodo.24317787)
 - Version 1.0.0: [doi:10.5281/zenodo.24317788](https://doi.org/10.5281/zenodo.24317788)
+- Version 1.1.0: [doi:10.5281/zenodo.24355204](https://doi.org/10.5281/zenodo.24355204)
 
 > Blattner, M. (2026). *Corless's nilpotent conjecture: proof, Lean formalisation and computations* (Version 1.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24317787
+
+The paper:
+
+> Blattner, M. (2026). *Nilpotent skew-symmetric tridiagonal Bohemian matrices: a proof of Corless's conjecture*. arXiv:2611.25266 [math.CO]. https://doi.org/10.48550/arXiv.2611.25266

@@ -32,6 +32,16 @@ keywords:
 references:
   - type: article
     authors:
+      - family-names: Blattner
+        given-names: Marcel
+        orcid: "https://orcid.org/0009-0001-7188-673X"
+    title: "Nilpotent skew-symmetric tridiagonal Bohemian matrices: a proof of Corless's conjecture"
+    year: 2026
+    doi: 10.48550/arXiv.2611.25266
+    url: "https://arxiv.org/abs/2611.25266"
+    notes: "arXiv preprint arXiv:2611.25266 [math.CO]"
+  - type: article
+    authors:
       - family-names: Corless
         given-names: Robert M.
     title: "Skew-symmetric tridiagonal Bohemian matrices"
